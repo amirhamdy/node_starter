@@ -1,0 +1,19 @@
+{
+  "name": "node_starter",
+  "version": "1.0.0",
+  "description": "my starter project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amir Hamdy",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.29.4",
+    "express": "^4.16.2",
+    "express-async-errors": "^2.1.0",
+    "mongoose": "^5.0.2"
+  }
+}
